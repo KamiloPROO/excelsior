@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/darkba"
+    android:theme="@style/Theme.Excelsior.NoActionBar"
     tools:context=".Login">
 
     <ImageView
@@ -52,20 +53,20 @@
     <EditText
         android:id="@+id/edUser"
         android:layout_width="300sp"
-        android:layout_height="70sp"
+        android:layout_height="50sp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:hint="@string/user"
+        android:textColor="@color/white"
         android:textColorHint="#ffffff"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.434" />
+        app:layout_constraintVertical_bias="0.421" />
 
     <TextView
         android:id="@+id/nomPasw"
@@ -85,7 +86,7 @@
     <EditText
         android:id="@+id/edPasw"
         android:layout_width="300sp"
-        android:layout_height="70sp"
+        android:layout_height="50sp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:hint="@string/password"
@@ -98,7 +99,7 @@
         app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.574" />
 
     <ImageView
         android:id="@+id/logoRC"
@@ -131,10 +132,10 @@
         android:layout_width="300sp"
         android:layout_height="60sp"
         android:background="#63318a"
-        android:theme="@style/Botonnuevo"
         android:backgroundTint="@color/typography"
         android:text="@string/btnLogin"
         android:textColor="@color/white"
+        android:theme="@style/Botonnuevo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
